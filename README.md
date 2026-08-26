@@ -39,7 +39,7 @@ Currently, we support [React Router](https://reactrouter.com/), [Next.js Route H
 
 ## Documentation
 
-[Here](https://raviqqe.com/oneRPC).
+[Here](https://raviqqe.com/onerpc).
 
 ## Examples
 
