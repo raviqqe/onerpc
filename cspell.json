@@ -3,6 +3,7 @@
     "byonm",
     "codecov",
     "deno",
+    "esbuild",
     "hidash",
     "hono",
     "loscore",

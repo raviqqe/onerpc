@@ -39,7 +39,7 @@ Currently, we support [React Router](https://reactrouter.com/), [Next.js Route H
 
 ## Documentation
 
-[Here](https://raviqqe.com/oneRPC).
+[Here](https://raviqqe.com/onerpc).
 
 ## Examples
 
@@ -60,7 +60,7 @@ export const GET = query(z.number(), z.string(), (x) => `Hello, ${x}!`, {
 
 `app/page.tsx`:
 
-```typescript
+```jsx
 import { type GET } from "@/app/api/foo/route";
 import { query } from "onerpc/client";
 

@@ -1,8 +1,6 @@
 packages:
   - .
   - examples/aws
-
-ignoredBuiltDependencies:
-  - esbuild
-
+allowBuilds:
+  esbuild: false
 includeWorkspaceRoot: true
