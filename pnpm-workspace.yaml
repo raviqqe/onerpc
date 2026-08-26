@@ -1,6 +1,5 @@
 packages:
-  - .
   - examples/aws
+  - packages/*
 allowBuilds:
   esbuild: false
-includeWorkspaceRoot: true
