@@ -60,7 +60,7 @@ export const GET = query(z.number(), z.string(), (x) => `Hello, ${x}!`, {
 
 `app/page.tsx`:
 
-```typescript
+```jsx
 import { type GET } from "@/app/api/foo/route";
 import { query } from "onerpc/client";
 
