@@ -14,6 +14,9 @@ importers:
       '@raviqqe/biome-config':
         specifier: ^2.0.16
         version: 2.0.27(@biomejs/biome@2.5.10)
+      esbuild:
+        specifier: ^0.28.0
+        version: 0.28.2
 
   examples/aws:
     dependencies:
@@ -42,9 +45,6 @@ importers:
       aws-cdk:
         specifier: ^2.115.0
         version: 2.1138.0
-      esbuild:
-        specifier: ^0.28.0
-        version: 0.28.2
       typescript:
         specifier: ^7.0.2
         version: 7.0.2

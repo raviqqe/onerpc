@@ -18,7 +18,6 @@
     "@raviqqe/tsconfig": "^3.0.0",
     "@types/aws-lambda": "^8.10.152",
     "aws-cdk": "^2.115.0",
-    "esbuild": "^0.28.0",
     "typescript": "^7.0.2",
     "vitest": "^4.0.1"
   }
