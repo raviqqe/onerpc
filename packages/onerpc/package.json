@@ -40,7 +40,7 @@
   "dependencies": {
     "@raviqqe/hidash": "^2.0.3",
     "@raviqqe/loscore": "^0.3.0",
-    "es-toolkit": "^1.39.10"
+    "es-toolkit": "^1.52.0"
   },
   "devDependencies": {
     "@raviqqe/tsconfig": "^3.0.0",
