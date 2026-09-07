@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@raviqqe/tsconfig": "^3.0.0",
-    "@types/aws-lambda": "^8.10.152",
+    "@types/aws-lambda": "^8.10.163",
     "aws-cdk": "^2.1139.0",
     "typescript": "^7.0.2",
     "vitest": "^4.0.1"
