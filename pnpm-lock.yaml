@@ -33,8 +33,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/onerpc
       valibot:
-        specifier: ^1.3.1
-        version: 1.4.2(typescript@7.0.2)
+        specifier: ^1.5.0
+        version: 1.5.0(typescript@7.0.2)
     devDependencies:
       '@raviqqe/tsconfig':
         specifier: ^3.0.0
@@ -80,8 +80,8 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
       valibot:
-        specifier: ^1.3.1
-        version: 1.4.2(typescript@7.0.2)
+        specifier: ^1.5.0
+        version: 1.5.0(typescript@7.0.2)
       vitest:
         specifier: ^5.0.0
         version: 5.0.0(@vitest/coverage-v8@5.0.0)(vite@8.0.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(esbuild@0.28.2)(tsx@4.23.11))
@@ -1072,8 +1072,8 @@ packages:
     engines: {node: '>=16.20.0'}
     hasBin: true
 
-  valibot@1.4.2:
-    resolution: {integrity: sha512-gjdCvJ6d3RyHAneqxMYMW9QMCwYMb3jpOO0IyHZV1bnRHFBHrX3VkIILt5XYR0WhwHiH7Mty8ovuPZ/O3gamrg==}
+  valibot@1.5.0:
+    resolution: {integrity: sha512-nil6AkP2TChWL43Z5uJ6GTxX01CUA+g8LWUM+N/rB9NBbkUMaUsi9PUNzlUPgoKASgmx9f7eGOYpJ04/fSa6FQ==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -1875,7 +1875,7 @@ snapshots:
       '@typescript/typescript-win32-arm64': 7.0.2
       '@typescript/typescript-win32-x64': 7.0.2
 
-  valibot@1.4.2(typescript@7.0.2):
+  valibot@1.5.0(typescript@7.0.2):
     optionalDependencies:
       typescript: 7.0.2
 
