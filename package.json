@@ -4,7 +4,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.15",
-    "@raviqqe/biome-config": "^2.0.16",
+    "@raviqqe/biome-config": "^2.0.28",
     "esbuild": "^0.28.0"
   },
   "engines": {
