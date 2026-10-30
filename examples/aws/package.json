@@ -8,7 +8,7 @@
     "test": "cdk synth && vitest"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.274.0",
+    "aws-cdk-lib": "^2.275.0",
     "constructs": "^10.0.0",
     "es-toolkit": "^1.53.0",
     "onerpc": "workspace:*",
