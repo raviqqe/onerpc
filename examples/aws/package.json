@@ -15,7 +15,7 @@
     "valibot": "^1.5.0"
   },
   "devDependencies": {
-    "@raviqqe/tsconfig": "^3.0.0",
+    "@raviqqe/tsconfig": "^3.0.3",
     "@types/aws-lambda": "^8.10.164",
     "aws-cdk": "^2.1146.1",
     "typescript": "^7.0.2",
