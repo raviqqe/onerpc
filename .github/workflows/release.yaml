@@ -13,9 +13,9 @@ jobs:
       id-token: write
     environment: ${{ github.ref == 'refs/heads/main' && 'release' || '' }}
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: ./.github/actions/setup
-      - uses: raviqqe/pnpm-publish@b9431a6e362ae9769b351acca4a2f697cb4eea6f # v1.0.2
+      - uses: actions/checkout@v7.0.1
+      - uses: $/.github/actions/setup
+      - uses: raviqqe/pnpm-publish@v1.0.2
         with:
           release: ${{ github.ref == 'refs/heads/main' }}
   cdk:
@@ -28,13 +28,13 @@ jobs:
       run:
         working-directory: examples/aws
     steps:
-      - uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
+      - uses: aws-actions/configure-aws-credentials@v6.3.0
         with:
           role-to-assume: ${{ secrets.aws_role }}
           aws-region: us-west-2
         if: github.ref == 'refs/heads/main'
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: ./.github/actions/setup
+      - uses: actions/checkout@v7.0.1
+      - uses: $/.github/actions/setup
       - run: pnpm -r build
       - run: pnpm cdk synth
       - run: pnpm cdk deploy --require-approval never
