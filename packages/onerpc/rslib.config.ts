@@ -8,6 +8,7 @@ export default defineConfig({
       output: {
         minify: true,
       },
+      syntax: "esnext",
     },
   ],
   source: {
