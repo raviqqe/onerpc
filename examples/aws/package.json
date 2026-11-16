@@ -8,7 +8,7 @@
     "test": "cdk synth && vitest"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.275.0",
+    "aws-cdk-lib": "^2.276.0",
     "constructs": "^10.0.0",
     "es-toolkit": "^1.53.2",
     "onerpc": "workspace:*",
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@raviqqe/tsconfig": "^3.0.5",
     "@types/aws-lambda": "^8.10.164",
-    "aws-cdk": "^2.1148.0",
+    "aws-cdk": "^2.1148.1",
     "typescript": "^7.0.2",
     "vitest": "^5.1.0"
   }
