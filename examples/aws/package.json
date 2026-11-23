@@ -19,6 +19,6 @@
     "@types/aws-lambda": "^8.10.164",
     "aws-cdk": "^2.1148.1",
     "typescript": "^7.0.2",
-    "vitest": "^5.1.0"
+    "vitest": "^5.1.1"
   }
 }
