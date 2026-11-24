@@ -198,8 +198,8 @@ importers:
   examples/aws:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.277.0
-        version: 2.277.0(constructs@10.8.1)
+        specifier: ^2.278.0
+        version: 2.278.0(constructs@10.8.1)
       constructs:
         specifier: ^10.0.0
         version: 10.8.1
@@ -330,8 +330,8 @@ packages:
     resolution: {integrity: sha512-pdIyBOsQy9E46s8W9qcEH9ZDjx5nacxnn0cP+17qTuM6D1YoIvKlaz8n8yE1dkTAP59yjCp2t3cpMnacq2YJkw==}
     engines: {node: '>= 10'}
 
-  '@aws-cdk/asset-awscli-v1@2.2.292':
-    resolution: {integrity: sha512-d4aMFsAFj19FtxVyw8IzlUKv5Zu4sIvgnEjI2IU6IWBJgVbJ4aFnadANqYa+6MwB1CQbGOg0jh8WE77M+Nb/9A==}
+  '@aws-cdk/asset-awscli-v1@2.2.297':
+    resolution: {integrity: sha512-8Fqkqn0ddOQoZHg3nTzwJ+ZZn9sogXy6G9JQO8lH3nbU8ZNSPXwfL+1yXFjwnchuL8AOfU5qrWaLl4JYcN40ZA==}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.3':
     resolution: {integrity: sha512-98We1QWfin9vtuuQtNFhIIAEWb8CreyYTAP0Vn8HqSBoNiFJM9nZgifJeQawT9Wq0NX1HCNFlxCyTccIrK1PSA==}
@@ -1044,8 +1044,8 @@ packages:
   ast-v8-to-istanbul@1.0.7:
     resolution: {integrity: sha512-kFL68AG6ajd8fg248zwM9GQrUWEp79gsmjum34OEXjs4yHuUMZfYKwOLW9GMmB4oNvVrj+EAGxsP7ye2UR9UlA==}
 
-  aws-cdk-lib@2.277.0:
-    resolution: {integrity: sha512-xUY16j7p5rsyohZIqxUtk7CswPpagCnDFoYKwwK2w78Of+m2+/EhU5UzI3FbNWeKttKMfwvddhVuah4GGODkAQ==}
+  aws-cdk-lib@2.278.0:
+    resolution: {integrity: sha512-E5OfaAeWGpZk9TWUodhsNLLCPzM8ObydK5BewEgfOGwYt6UA+8po/+SyLLuFr4DoSjw17vMZg9eCNP6nlymNJg==}
     engines: {node: '>= 20.0.0'}
     peerDependencies:
       constructs: ^10.5.0
@@ -1409,7 +1409,7 @@ snapshots:
       '@ast-grep/napi-win32-ia32-msvc': 0.51.1
       '@ast-grep/napi-win32-x64-msvc': 0.51.1
 
-  '@aws-cdk/asset-awscli-v1@2.2.292': {}
+  '@aws-cdk/asset-awscli-v1@2.2.297': {}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.3': {}
 
@@ -1872,9 +1872,9 @@ snapshots:
       estree-walker: 3.0.3
       js-tokens: 10.0.0
 
-  aws-cdk-lib@2.277.0(constructs@10.8.1):
+  aws-cdk-lib@2.278.0(constructs@10.8.1):
     dependencies:
-      '@aws-cdk/asset-awscli-v1': 2.2.292
+      '@aws-cdk/asset-awscli-v1': 2.2.297
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.3
       '@aws-cdk/cloud-assembly-schema': 55.6.0
       constructs: 10.8.1
